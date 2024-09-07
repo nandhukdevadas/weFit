@@ -1,0 +1,234 @@
+.title_weekly_workout_line_1
+{
+    width: 100%;
+
+    font-size: calc(12px + 0.5vw);  
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    margin-left: 15px;
+}
+.title_weekly_workout_line_2
+{
+    width: 100%;
+    font-size: calc(25px + 0.5vw);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.weekly_workout_wrap
+{
+    margin-top: 30px;
+}
+
+.div_weekly_workout_card_wrap
+{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card_weekly
+{
+    width: 14vw;
+    height: 7vw;
+
+    background-color: #9BC1BC;
+    color: #fff;
+
+    margin-right: 2vh;
+    margin-left: 2vh;
+
+    display: flex;
+    justify-content: flex-start;
+
+    border-radius: 1vw;
+}
+
+.card_weekly_line_wrap
+{
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.card_weekly_line_1
+{
+    display: block;
+    font-size: 1vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.card_weekly_line_2
+{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+.mobile_weekly_workout_card_wrap
+{
+    display: none;
+    margin-bottom: 4rem;
+}
+
+.desktop_monday
+{
+    background-image: url(../Images/button-art/biceps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.desktop_tuesday
+{
+    background-image: url(../Images/button-art/triceps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.desktop_wednesday
+{
+    background-image: url(../Images/button-art/abs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.desktop_thursday
+{
+    background-image: url(../Images/button-art/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.desktop_friday
+{
+    background-image: url(../Images/button-art/chest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.desktop_saturday
+{
+    background-image: url(../Images/button-art/legs-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+@media (max-width: 600px)
+{
+    .div_weekly_workout_card_wrap
+    {
+        display: none;
+    }
+
+    .mobile_weekly_workout_card_wrap
+    {
+        display: block;
+    }
+
+    .mobile_card_weekly
+    {
+        width: 40vw;
+        height: 22vw;
+
+        background-color: #9BC1BC;
+        color: #fff;
+
+        /* font-family: 'Inter', sans-serif;
+        font-size: 4vw;
+        font-weight: 700; */
+
+        /* margin-left: 15px;
+        margin-top: 15px; */
+
+        display: flex;
+        justify-content: flex-start;
+
+        border-radius: 1vw;
+    }
+
+    .mobile_card_weekly a
+    {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .mobile_card_weekly_line_wrap
+    {
+        margin-left: 2vw;
+    }
+
+    .card_weekly_line_1
+    {
+        font-size: 4vw;
+        line-height: 8vw;
+    }
+
+    .card_weekly_line_2
+    {
+        font-size: 5vw;
+        padding: 0;
+        margin: 0   ;
+    }
+
+.mobile_monday
+{
+    background-image: url(../Images/button-art/biceps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.mobile_tuesday
+{
+    background-image: url(../Images/button-art/triceps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.mobile_wednesday
+{
+    background-image: url(../Images/button-art/abs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.mobile_thursday
+{
+    background-image: url(../Images/button-art/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.mobile_friday
+{
+    background-image: url(../Images/button-art/chest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.mobile_saturday
+{
+    background-image: url(../Images/button-art/legs-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+}

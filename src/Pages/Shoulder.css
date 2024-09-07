@@ -1,0 +1,188 @@
+.go-back-icon
+{
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+
+/* Image Section */
+
+.image-section
+{
+    display: flex;
+    justify-content: center;
+}
+
+.BG
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+    margin-top: 5px;
+}
+
+img 
+{
+    width: calc(150px + 10vw);
+}
+
+/* General Instructions */
+
+.general-instructions
+{
+    background-color: #C4F5D0;
+    color: #248A3D;
+
+    font-family: 'Inter', sans-serif;
+    font-size: calc(5px + 2vw);
+    font-weight: 500;
+
+    margin: 15px calc(15px + 3vw) 15px calc(15px + 3vw);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #248A3D;
+
+    display: none;
+    overflow: hidden;
+}
+.general-instructions.active {
+    display: block;
+}
+.general-instructions div
+{
+    margin-bottom: 7px;
+}
+.general-instructions-title
+{
+    background-color: #C4F5D0;
+    color: #248A3D;
+
+    font-family: 'Inter', sans-serif;
+    font-size: calc(5px + 2vw);
+    font-weight: 500;
+
+    margin: 15px calc(15px + 3vw) 15px calc(15px + 3vw);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #248A3D;
+
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Workout Card */
+
+.workout-card-latest
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #fafafa;
+
+    margin-right: 3vh;
+    margin-left: 3vh;
+    margin-top: 30px;
+
+    border-radius: 15px;
+    border: 2px solid #EDEDED;
+}
+
+.workout-card-latest-name a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.workout-card-latest-image img
+{
+    width: calc(60px + 8vw);
+}
+
+.workout-card-latest-name
+{
+    font-family: 'Inter', sans-serif;
+    font-size: calc(12px + 0.5vw);  
+    font-weight: 500;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.workout-card-latest-youtube-icon
+{
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.workout-card-latest-youtube-icon a
+{
+    color: #D70002;
+    text-decoration: none;
+}
+
+/* ------------ Old ------------- */
+
+
+.musclegroup-name
+{
+    height: 7vw;
+
+    background-color: #FF6961;
+    color: #fff;
+
+    font-family: 'Inter', sans-serif;
+    font-size: calc(5px + 2vw);
+    font-weight: 700;
+
+    margin: 15px calc(15px + 3vw) 15px calc(15px + 3vw);
+
+    display: flex;
+    justify-content: center;
+    /* line-height: 7vw; */
+    align-items: center;
+    border-radius: 1vw;
+}
+
+.youtube-icon
+{
+    margin-top: -1%;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.youtube-icon a
+{
+    color: #D70002;
+    text-decoration: none;
+}
+
+.workout-card
+{
+    border: 2px solid #EDEDED;
+    background-color: #FAFAFA;
+    margin: 0 calc(15px + 3vw) 15px calc(15px + 3vw);
+    padding: calc(10px + 1vw)  0 calc(10px + 1vw) 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.workout-name
+{
+    background-color:#FFDFDD;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'inter';
+    font-weight: 400;
+    padding: 20px 20px 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}

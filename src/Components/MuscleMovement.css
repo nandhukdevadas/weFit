@@ -1,0 +1,152 @@
+.title_muscle_movement_line_1,
+.title_muscle_movement_line_2
+{
+    width: 100%;
+
+    font-size: calc(12px + 0.5vw);  
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    margin-left: 15px;
+}
+.title_muscle_movement_line_3
+{
+    width: 100%;
+    font-size: calc(25px + 0.5vw);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.muscle_movement_wrap
+{
+    margin-top: 30px;
+}
+
+.div_musclemovement_card_wrap
+{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.card_movement
+{
+    width: 11vw;
+    height: 5vw;
+
+    background-color: #F4F1BB;
+    color: #fff;
+
+    margin-right: 2vh;
+    margin-left: 2vh;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    line-height: 5vw;
+
+    border-radius: 1vw;
+}
+
+.mobile_musclemovement_card_wrap
+{
+    display: none;
+}
+
+.desktop_push
+{
+    background-image: url(../Images/button-art/push.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.desktop_pull
+{
+    background-image: url(../Images/button-art/pull.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.desktop_legs
+{
+    background-image: url(../Images/button-art/legs-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.mobile_card_movement a,
+.card_movement a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media(max-width: 600px)
+{
+    .div_musclemovement_card_wrap
+    {
+        display: none;
+    }
+
+    .mobile_musclemovement_card_wrap
+    {
+        display: block;
+    }
+
+    /* card for mobile */
+
+    .mobile_card_movement
+    {
+        width: 40vw;
+        height: 22vw;
+
+        color: #fff;
+
+        font-family: 'Inter', sans-serif;
+        font-size: 8vw;
+        font-weight: 700;
+
+        /* margin-left: 15px;
+        margin-top: 15px; */
+
+        display: flex;
+        justify-content: center;
+        line-height: 22vw;
+
+        border-radius: 1vw;
+    }
+    
+    .mobile_push
+    {
+        background-image: url(../Images/button-art/push.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        line-height: 22vw;
+        cursor: pointer;
+    }
+
+    .mobile_pull
+    {
+        background-image: url(../Images/button-art/pull.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        line-height: 22vw;
+        cursor: pointer;
+    }
+
+    .mobile_legs
+    {
+        background-image: url(../Images/button-art/legs-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        line-height: 22vw;
+        cursor: pointer;
+    }
+
+}
