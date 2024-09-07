@@ -3,6 +3,7 @@ import {Link, useNavigate} from 'react-router-dom';
 import ReactPlayer from 'react-player';
 import { FaYoutube } from "react-icons/fa";
 import { UilAngleLeftB,UilArrowDown, UilArrowCircleLeft } from '@iconscout/react-unicons';
+import { motion } from 'framer-motion';
 
 import Navbar from '../../../Components/Navbar';
 
@@ -26,16 +27,22 @@ const Shoulder = () => {
 
 
   return (
-    <div className='muscle-group-shoulder-body'>
+    <motion.div
+    className='muscle-group-shoulder-body'
+    cstyle={{ backgroundColor: 'black' }}
+    initial={{x: "100%"}}
+    animate={{x: "0%"}}
+    transition={{duration: 0.3, ease: "easeOut"}}
+    exit={{opacity: 1}}
+    >
 
     {/* Navbar */}
       <Navbar/>
 
     {/* Back Symbol */}
-      <div className='go-back-icon'>
-      {/* <Link to='/muscleGroupShoulderGroup'onClick={playClickSound}> <span className='general-instructions-drop-down'><UilArrowCircleLeft size="30" color="#000" /></span></Link> */}
+      {/* <div className='go-back-icon'>
       <span className='general-instructions-drop-down' onClick={() => navigate(-1)}><UilArrowCircleLeft size="30" color="#000" /></span>
-      </div>
+      </div> */}
 
     {/* Image Section */}
       <div className='image-section'>
@@ -165,7 +172,7 @@ const Shoulder = () => {
 
     </div>
     </div>
-    </div>
+    </motion.div>
   )
 }
 
