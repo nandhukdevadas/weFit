@@ -125,7 +125,7 @@ const Weekly = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <Link to='weeklyWorkoutWednesday'>
+              <Link to='/weeklyWorkoutWednesday'>
                 <motion.div
                   className='mobile_card_weekly mobile_wednesday'
                   whileTap={{ scale: 0.8 }}
@@ -157,7 +157,7 @@ const Weekly = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <Link to='/weeklyWorkoutTuesday'>
+              <Link to='/weeklyWorkoutFriday'>
                 <motion.div
                   className='mobile_card_weekly mobile_friday'
                   whileTap={{ scale: 0.8 }}

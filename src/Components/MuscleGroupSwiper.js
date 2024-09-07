@@ -59,7 +59,7 @@ const MuscleGroupSwiper = () => {
               <motion.div
                 className='mobile_card mobile_shoulder'
                 whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
+                transition={{ bounceDamping: 10, bounceStiffness: 600 }}
               >
                 <Link to='/muscleGroupShoulderGroup'>Shoulder</Link>
               </motion.div>
