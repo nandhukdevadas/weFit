@@ -19,9 +19,9 @@ const Shoulder_Group = () => {
 
         {/* Back Icon */}
 
-        <div className='go-back-icon'>
+        {/* <div className='go-back-icon'>
             <Link to='/'> <span className='general-instructions-drop-down'><UilArrowCircleLeft size="30" color="#000" /></span></Link>
-        </div>
+        </div> */}
 
         <div className='title-inside-page-wrap'>
             <div className='title-inside-page'>Monday & Thursday</div>
