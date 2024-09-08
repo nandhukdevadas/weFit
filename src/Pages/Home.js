@@ -4,6 +4,7 @@ import MuscleGroupSwiper from '../Components/MuscleGroupSwiper';
 import MuscleMovement from '../Components/MuscleMovement';
 import Weekly from '../Components/Weekly';
 import { motion } from 'framer-motion';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const Home = () => {
   
