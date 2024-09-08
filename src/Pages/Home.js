@@ -20,6 +20,7 @@ const Home = () => {
         <MuscleGroupSwiper/>
         <MuscleMovement/>
         <Weekly/>
+        <SpeedInsights/>
     </motion.div>
   )
 }
