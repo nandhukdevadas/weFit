@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import { UilAngleRightB, UilArrowCircleLeft } from '@iconscout/react-unicons';
+import { motion } from 'framer-motion';
 
 import Navbar from '../../../Components/Navbar';
 
@@ -15,15 +16,20 @@ import '../../Shoulder_Group.css';
 const Shoulder_Group = () => {
   
   return (
-    <div cstyle={{ backgroundColor: 'black' }}>
+    <motion.div 
+    initial={{x: "100%"}}
+    animate={{x: "0%"}}
+    transition={{duration: 0.3, ease: "easeOut"}}
+    exit={{opacity: 1}}
+    >
 
         <Navbar/>
 
         {/* Back Icon */}
 
-        <div className='go-back-icon'>
+        {/* <div className='go-back-icon'>
             <Link to='/muscleMovementPullGroup'> <span className='general-instructions-drop-down'><UilArrowCircleLeft size="30" color="#000" /></span></Link>
-        </div>
+        </div> */}
 
         <div className='title-inside-page-wrap'>
             <div className='title-inside-page'>Shoulder</div>
@@ -71,7 +77,7 @@ const Shoulder_Group = () => {
             <Link to='/muscleGroupRearDeltoid' ><UilAngleRightB size="25" color="#000" /></Link>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
