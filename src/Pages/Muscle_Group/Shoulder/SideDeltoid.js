@@ -84,7 +84,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Dumbbell Lateral Raise</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/G-piLwLu0d4?si=EFYXPBSbIUSZTgrA' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
@@ -104,7 +104,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Lying Incline Lateral Raise</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/BpXvPDu6vp8?si=zK20yveM1jZGXJXz' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
@@ -124,7 +124,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Cable Incline Lateral Raise</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/1AmmsXlf8MU?si=Ppb4X5vnEMRh7Ttq' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
@@ -144,7 +144,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Seated Barbell Shoulder Press</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/QWdaC7rQ-FM?si=dzUKtfyt0O-txZvn' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
@@ -162,9 +162,9 @@ const Shoulder = () => {
                 />
             </div>
             <div className='workout-card-latest-name'>
-                <Link to='/muscleGroupFrontDeltoid'>Dumbbell Lateral Raise</Link>
+                <Link to='/muscleGroupFrontDeltoid'>Dumbbell Shoulder Press</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/6K_N9AGhItQ?si=bNsEv8kVY1wuPmBk' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>

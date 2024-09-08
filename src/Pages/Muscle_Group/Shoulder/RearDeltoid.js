@@ -81,7 +81,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Double-Arm Reverse Cable Fly</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/bkejPHrPkmA?si=aBDPFGso64hMxzfd' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
@@ -101,7 +101,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Reverse Pec Deck Machine</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/R4a1hpzYOIc?si=MYsDZ0qd0wt97vlM' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
@@ -121,7 +121,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Face Pulls</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/DVxfKB0BnlY?si=HnWVJxYrF-te4G-t' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
@@ -141,7 +141,7 @@ const Shoulder = () => {
             <div className='workout-card-latest-name'>
                 <Link to='/muscleGroupFrontDeltoid'>Bent Reverse Dumbell Flys</Link>
                 <div className='workout-card-latest-youtube-icon'>
-                    <a href='https://www.youtube.com/shorts/bQPhGIJJ-jQ' ><FaYoutube /></a>
+                    <a href='https://youtube.com/shorts/KoRDmXocJII?si=YvW__dMUBuZVqtHa' ><FaYoutube /></a>
                 </div> 
             </div> 
         </div>
