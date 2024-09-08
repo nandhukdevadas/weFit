@@ -7,6 +7,7 @@ import video1 from '../../../Images/abs/reverse-crunches.mp4';
 import ReactPlayer from 'react-player';
 import { FaYoutube } from "react-icons/fa";
 import { UilArrowDown} from '@iconscout/react-unicons';
+import { motion } from 'framer-motion';
 
 const Shoulder = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -16,7 +17,12 @@ const Shoulder = () => {
 
 
   return (
-    <div className='muscle-group-shoulder-body'>
+    <motion.div 
+    initial={{x: "100%"}}
+    animate={{x: "0%"}}
+    transition={{duration: 0.3, ease: "easeOut"}}
+    exit={{opacity: 1}}
+    >
 
     {/* Navbar */}
       <Navbar/>
@@ -75,7 +81,7 @@ const Shoulder = () => {
 
     </div>
     </div>
-    </div>
+    </motion.div>
   )
 }
 

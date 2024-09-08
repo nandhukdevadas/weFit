@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import ReactPlayer from 'react-player';
 import { FaYoutube } from "react-icons/fa";
 import { UilAngleLeftB,UilArrowDown, UilArrowCircleLeft } from '@iconscout/react-unicons';
+import { motion } from 'framer-motion';
 
 import Navbar from '../../../Components/Navbar';
 
@@ -22,7 +23,13 @@ const Shoulder = () => {
 
 
   return (
-    <div className='muscle-group-shoulder-body'>
+    <motion.div 
+    className='muscle-group-shoulder-body'
+    initial={{x: "100%"}}
+    animate={{x: "0%"}}
+    transition={{duration: 0.3, ease: "easeOut"}}
+    exit={{opacity: 1}}
+    >
 
     {/* Navbar */}
       <Navbar/>
@@ -121,7 +128,7 @@ const Shoulder = () => {
 
     </div>
     </div>
-    </div>
+    </motion.div>
   )
 }
 

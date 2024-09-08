@@ -16,7 +16,6 @@ const Shoulder_Group = () => {
   
   return (
     <motion.div 
-    cstyle={{ backgroundColor: 'black' }}
     initial={{x: "100%"}}
     animate={{x: "0%"}}
     transition={{duration: 0.3, ease: "easeOut"}}

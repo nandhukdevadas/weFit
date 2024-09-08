@@ -25,7 +25,6 @@ const Shoulder = () => {
   return (
     <motion.div 
     className='muscle-group-shoulder-body'
-    cstyle={{ backgroundColor: 'black' }}
     initial={{x: "100%"}}
     animate={{x: "0%"}}
     transition={{duration: 0.3, ease: "easeOut"}}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import { UilAngleRightB, UilArrowCircleLeft } from '@iconscout/react-unicons';
+import { motion } from 'framer-motion';
 
 import Navbar from '../../../Components/Navbar';
 
@@ -13,7 +14,12 @@ const Shoulder_Group = () => {
   
   return (
     
-    <div cstyle={{ backgroundColor: 'black' }}>
+    <motion.div 
+    initial={{x: "100%"}}
+    animate={{x: "0%"}}
+    transition={{duration: 0.3, ease: "easeOut"}}
+    exit={{opacity: 1}}
+    >
 
         <Navbar/>
 
@@ -69,7 +75,7 @@ const Shoulder_Group = () => {
             <Link to='/muscleGroupOblique' ><UilAngleRightB size="25" color="#000" /></Link>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
