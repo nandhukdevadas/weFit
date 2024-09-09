@@ -129,7 +129,7 @@ const Weekly = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <Link to='/BackGroupForMonThr'>
+              <Link to='/weeklyWorkoutMonday'>
                 <motion.div className='mobile_card_weekly mobile_thursday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Thursday</span>
@@ -141,7 +141,7 @@ const Weekly = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <Link to='/weeklyWorkoutFriday'>
+              <Link to='/weeklyWorkoutTuesday'>
                 <motion.div className='mobile_card_weekly mobile_friday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Friday</span>
