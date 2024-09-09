@@ -94,11 +94,7 @@ const Weekly = () => {
             {/* Animated SwiperSlides */}
             <SwiperSlide>
               <Link to='/weeklyWorkoutMonday'>
-                <motion.div
-                  className='mobile_card_weekly mobile_monday'
-                  whileTap={{ scale: 0.8 }}
-                  transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-                >
+                <motion.div className='mobile_card_weekly mobile_monday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Monday</span>
                     <span className='card_weekly_line_2'>Back &</span>
@@ -110,11 +106,7 @@ const Weekly = () => {
 
             <SwiperSlide>
               <Link to='/weeklyWorkoutTuesday'>
-                <motion.div
-                  className='mobile_card_weekly mobile_tuesday'
-                  whileTap={{ scale: 0.8 }}
-                  transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-                >
+                <motion.div className='mobile_card_weekly mobile_tuesday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Tuesday</span>
                     <span className='card_weekly_line_2'>Chest &</span>
@@ -126,11 +118,7 @@ const Weekly = () => {
 
             <SwiperSlide>
               <Link to='/weeklyWorkoutWednesday'>
-                <motion.div
-                  className='mobile_card_weekly mobile_wednesday'
-                  whileTap={{ scale: 0.8 }}
-                  transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-                >
+                <motion.div className='mobile_card_weekly mobile_wednesday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Wednesday</span>
                     <span className='card_weekly_line_2'>Legs &</span>
@@ -142,11 +130,7 @@ const Weekly = () => {
 
             <SwiperSlide>
               <Link to='/BackGroupForMonThr'>
-                <motion.div
-                  className='mobile_card_weekly mobile_thursday'
-                  whileTap={{ scale: 0.8 }}
-                  transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-                >
+                <motion.div className='mobile_card_weekly mobile_thursday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Thursday</span>
                     <span className='card_weekly_line_2'>Back &</span>
@@ -158,11 +142,7 @@ const Weekly = () => {
 
             <SwiperSlide>
               <Link to='/weeklyWorkoutFriday'>
-                <motion.div
-                  className='mobile_card_weekly mobile_friday'
-                  whileTap={{ scale: 0.8 }}
-                  transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-                >
+                <motion.div className='mobile_card_weekly mobile_friday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Friday</span>
                     <span className='card_weekly_line_2'>Chest &</span>
@@ -174,11 +154,7 @@ const Weekly = () => {
 
             <SwiperSlide>
               <Link to='/weeklyWorkoutSaturday'>
-                <motion.div
-                  className='mobile_card_weekly mobile_saturday'
-                  whileTap={{ scale: 0.8 }}
-                  transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-                >
+                <motion.div className='mobile_card_weekly mobile_saturday'>
                   <div className='mobile_card_weekly_line_wrap'>
                     <span className='card_weekly_line_1'>Saturday</span>
                     <span className='card_weekly_line_2'>Legs &</span>

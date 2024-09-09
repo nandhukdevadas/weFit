@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import 'swiper/css';
@@ -53,69 +53,40 @@ const MuscleGroupSwiper = () => {
             loop={true}
           >
 
-            {/* Animated SwiperSlides */}
+            {/* Simplified Animated SwiperSlides */}
 
             <SwiperSlide>
-              <motion.div
-                className='mobile_card mobile_shoulder'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 10, bounceStiffness: 600 }}
-              >
+              <motion.div className='mobile_card mobile_shoulder'>
                 <Link to='/muscleGroupShoulderGroup'>Shoulder</Link>
               </motion.div>
             </SwiperSlide>
-            
             <SwiperSlide>
-              <motion.div
-                className='mobile_card mobile_back'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card mobile_back'>
                 <Link to='/muscleGroupsBackGroup'>Back</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card mobile_chest'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card mobile_chest'>
                 <Link to='/muscleGroupsChestGroup'>Chest</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card mobile_biceps'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card mobile_biceps'>
                 <Link to='/muscleGroupBicepsGroup'>Biceps</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card mobile_triceps'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card mobile_triceps'>
                 <Link to='/muscleGroupTricepsGroup'>Triceps</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card mobile_abs'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card mobile_abs'>
                 <Link to='/muscleGroupAbsGroup'>Abs</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card mobile_legs'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card mobile_legs'>
                 <Link to='/muscleGroupLegsGroup'>Legs</Link>
               </motion.div>
             </SwiperSlide>

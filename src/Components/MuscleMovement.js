@@ -58,56 +58,32 @@ const MuscleMovement = () => {
             {/* Animated SwiperSlides */}
 
             <SwiperSlide>
-              <motion.div
-                className='mobile_card_movement mobile_push'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card_movement mobile_push'>
                 <Link to='/muscleMovementPushGroup'>Push</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card_movement mobile_pull'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card_movement mobile_pull'>
                 <Link to='/muscleMovementPullGroup'>Pull</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card_movement mobile_legs'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card_movement mobile_legs'>
                 <Link to='/muscleGroupLegsGroup'>Legs</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card_movement mobile_push'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card_movement mobile_push'>
                 <Link to='/muscleMovementPushGroup'>Push</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card_movement mobile_pull'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card_movement mobile_pull'>
                 <Link to='/muscleMovementPullGroup'>Pull</Link>
               </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                className='mobile_card_movement mobile_legs'
-                whileTap={{ scale: 0.8 }}
-                transition={{ bounceDamping: 100, bounceStiffness: 5 }}
-              >
+              <motion.div className='mobile_card_movement mobile_legs'>
                 <Link to='/muscleGroupLegsGroup'>Legs</Link>
               </motion.div>
             </SwiperSlide>
