@@ -98,6 +98,7 @@ const Shoulder = () => {
                 height='calc(100px + 8vw)'
                 width='100%'
                 className='react-player'
+                playsinline={true}
                 />
             </div>
             <div className='workout-card-latest-name'>
@@ -118,6 +119,7 @@ const Shoulder = () => {
                 height='calc(100px + 8vw)'
                 width='100%'
                 className='react-player'
+                playsinline={true}
                 />
             </div>
             <div className='workout-card-latest-name'>
@@ -138,6 +140,7 @@ const Shoulder = () => {
                 height='calc(100px + 8vw)'
                 width='100%'
                 className='react-player'
+                playsinline={true}
                 />
             </div>
             <div className='workout-card-latest-name'>
